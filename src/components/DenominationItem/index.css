@@ -1,0 +1,24 @@
+.button-box {
+  color: #d4d2db;
+  background-color: #585076;
+  border: 1px solid #d4d2db;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* Adds space between buttons */
+  justify-content: center; /* Centers the button container */
+  margin-top: 20px; /* Optional: adds space above the button container */
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: none;
+}

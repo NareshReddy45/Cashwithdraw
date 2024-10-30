@@ -1,0 +1,77 @@
+.heading {
+  color: #382f5a;
+  background-color: #c7d2fe;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-left: 30px;
+  font-size: 10px;
+  display: flex; /* Add this to enable flexbox */
+  justify-content: center; /* Centers text horizontally */
+  align-items: center;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #150b3e;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 80%;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+.para1 {
+  color: #c7d2fe;
+  padding-left: 30px;
+}
+
+.para2 {
+  color: #585076;
+  font-size: 20px;
+}
+
+.para3 {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.first-row {
+  display: flex;
+}
+
+.third-row {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.withdraw-heading {
+  color: #d4d2db;
+  font-size: 30px;
+  padding-left: 30px;
+  font-weight: 500;
+}
+
+.sum-para {
+  color: #585076;
+  font-size: 20px;
+  padding-left: 30px;
+}
